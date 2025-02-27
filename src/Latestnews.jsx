@@ -25,11 +25,11 @@ function Latestnews() {
                     <div key={a.id} className="col-lg-6 my-2">
                         <div className="p-1 shadow rounded border">
                     <div className="row">
-                        <div className="col-6">
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                             <Link to={`/details/${a.id}`}><img className='w-100 lnews' src={a.featured_image_src} alt="" /></Link>
                         </div>
-                        <div className="col-6">
-                            <Link className='text-decoration-none' to={`/details/${a.id}`}><p className='text-success fs-5 hover-green fw-bold'>{a.title.rendered}</p></Link>
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+                            <Link className='text-decoration-none' to={`/details/${a.id}`}><p className='text-success px-1 py-2 fs-5 hover-green fw-bold'>{a.title.rendered}</p></Link>
                         </div>
                     </div>
                 </div>

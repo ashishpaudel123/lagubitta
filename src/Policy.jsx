@@ -16,11 +16,11 @@ function Policy() {
                     <div key={a.id} className="col-lg-4 col-md-6 col-sm-12">
                         <div className="p-1 my-2 shadow rounded border">
                         <div className="row">
-                            <div className="col-6">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                             <img className='w-100 lnews' src={a.featured_image_src} alt="" />
                             </div>
-                            <div className="col-6">
-                            <p className='mt-2 text-success fs-5 fw-bold'>{a.title.rendered}</p>
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+                            <p className='mt-2 text-success px-1 py-1 fs-5 fw-bold'>{a.title.rendered}</p>
                             </div>
                         </div>
                         
