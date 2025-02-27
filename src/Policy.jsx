@@ -10,11 +10,11 @@ function Policy() {
     <>
         <div className="container mt-4">
             <h2 className='p-2 bg-success px-3 text-white text-center'>राष्ट्रिय नीति</h2>
-            <div className="row shadow mx-2 p-3">
+            <div className="row shadow mx-1">
                 {news.map((a,i)=>(
                     i <=5 ? (
                     <div key={a.id} className="col-lg-4 col-md-6 col-sm-12">
-                        <div className="p-4 p-2 shadow rounded border">
+                        <div className="p-1 my-2 shadow rounded border">
                         <div className="row">
                             <div className="col-6">
                             <img className='w-100 lnews' src={a.featured_image_src} alt="" />

@@ -11,10 +11,10 @@ function Information() {
     <>
         <div className="container mt-4">
             <h2 className='p-2 bg-success px-3 text-white text-center'>लघुवित्त सूचना</h2>
-            <div className="row shadow mx-2 p-3">
+            <div className="row mx-2 p-3">
                 {news.map((a,i)=>(
                     i <=5 ? (
-                    <div key={a.id} className="col-lg-4 col-md-6 col-sm-12">
+                    <div key={a.id} className="col-lg-4 my-2 col-md-6 col-sm-12">
                         <div className="p-4 p-2 shadow rounded border">
                         <div className="row">
                             <div className="col-6">

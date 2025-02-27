@@ -20,10 +20,10 @@ function Latestnews() {
     <>
         <div className="container mt-4">
             <h2 className='bg-success p-2 text-white  text-center'>लघुवित्त समाचार</h2>
-            <div className="row shadow mx-2 p-3">
+            <div className="row shadow mx-1">
                 {news.map(a=>(
-                    <div key={a.id} className="col-lg-6">
-                        <div className="p-4 p-2 shadow rounded border">
+                    <div key={a.id} className="col-lg-6 my-2">
+                        <div className="p-1 shadow rounded border">
                     <div className="row">
                         <div className="col-6">
                             <Link to={`/details/${a.id}`}><img className='w-100 lnews' src={a.featured_image_src} alt="" /></Link>

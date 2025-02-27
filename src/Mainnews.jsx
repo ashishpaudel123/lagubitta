@@ -14,7 +14,7 @@ function Mainnews() {
         <div className="container mt-4">
             {mainnews.map((a,i)=>(
                 i === 0 ? (
-                <div key={a.id} className='text-center shadow'>
+                <div key={a.id} className='text-center my-2 shadow'>
                     <Link className='text-decoration-none'  to={`/details/${a.id}`}><h1 className='fw-bold hover-green text-success'>{a.title.rendered}</h1></Link>
                     <Link to={`/details/${a.id}`}><img className='img-fluid opacity-low' src={a.featured_image_src} alt="" /></Link>
                     <div className='my-3 fs-5'
