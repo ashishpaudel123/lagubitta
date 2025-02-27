@@ -36,7 +36,7 @@ function Details() {
             </div>
             <div className="col-lg-12">
               
-              <div className="my-4 fs-5"
+              <div className="my-4 im fs-5"
                 dangerouslySetInnerHTML={{ __html: details.content?.rendered }}
               />
             </div>

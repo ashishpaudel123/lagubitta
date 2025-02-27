@@ -57,6 +57,11 @@ img.lnews{
     top: 0px !important;
     width: 100% !important;
 }
+.im{
+    width: 100% !important;
+    object-fit: cover !important;
+    overflow:  hidden !important;
+}
 
 /* HTML: <div class="loader"></div> */
 .loader {
